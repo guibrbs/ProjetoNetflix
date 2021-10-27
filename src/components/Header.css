@@ -28,3 +28,23 @@ header.black{
 .header--user{
     height: 45px;
 }
+.header--inicio a, .header--series a, .header--filmes a, .header--bombando a, .header--mylist a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+.header--inicio a{
+    right: 140px;
+}
+.header--series a{
+    right: 340px;
+}
+.header--filmes a{
+    right: 540px;
+}
+.header--bombando a{
+    right: 740px;
+}
+.header--mylist a{
+    right: 940px;
+}
