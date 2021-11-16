@@ -29,22 +29,27 @@ header.black{
     height: 45px;
 }
 .header--inicio a, .header--series a, .header--filmes a, .header--bombando a, .header--mylist a{
-    position: relative;
+    position: fixed;
     text-decoration: none;
     color: white;
 }
 .header--inicio a{
-    right: 140px;
+    top: 30px;
+    left: 250px;
 }
 .header--series a{
-    right: 340px;
+    top: 30px;
+    left: 350px;
 }
 .header--filmes a{
-    right: 540px;
+    top: 30px;
+    left: 450px;
 }
 .header--bombando a{
-    right: 740px;
+    top: 30px;
+    left: 550px;
 }
 .header--mylist a{
-    right: 940px;
+    top: 30px;
+    left: 680px;
 }
